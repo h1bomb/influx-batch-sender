@@ -1,6 +1,6 @@
 # influx-batch-sender
 [![NPM version][npm-image]][npm-url]
-
+  
 [npm-image]: https://img.shields.io/npm/v/influx-batch-sender.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/influx-batch-sender
 
