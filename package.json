@@ -1,0 +1,21 @@
+{
+  "name": "influx-batch-sender",
+  "version": "0.1.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/nyc node_modules/.bin/ava",
+    "posttest": "node_modules/.bin/nyc report --reporter=html",
+    "lint": "node node_modules/eslint\bin/eslint ./*.js ./example/*.js"
+  },
+  "dependencies": {
+    "debug": "^3.0.1",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^4.4.1",
+    "eslint-config-yoho": "^1.0.1",
+    "nyc": "^11.1.0"
+  }
+}
